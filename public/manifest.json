@@ -1,0 +1,15 @@
+{
+  "name": "Birthday Hub",
+  "short_name": "BirthdayHub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f051d",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
