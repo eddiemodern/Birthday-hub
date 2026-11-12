@@ -232,7 +232,7 @@ export default function App() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-                Celebrate Friends &amp; Discover Your{' '}
+                Celebrate Friends and Discover Your{' '}
                 <span className="bg-gradient-to-r from-rose-500 via-pink-500 to-amber-500 bg-clip-text text-transparent">
                   Birthday Twins
                 </span>
@@ -246,7 +246,7 @@ export default function App() {
 
               <div className="p-6 rounded-3xl bg-white dark:bg-slate-800/80 border border-rose-100 dark:border-slate-700 shadow-xl shadow-rose-500/5 space-y-4">
                 <p className="text-sm font-medium text-slate-700 dark:text-slate-200">
-                  Don&apos;t have an account yet? Create one in seconds to join the celebration!
+                  Do not have an account yet? Create one in seconds to join the celebration!
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                   <button
@@ -295,10 +295,9 @@ export default function App() {
                 <div className="w-10 h-10 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-600 dark:text-indigo-400 flex items-center justify-center">
                   <MessageCircle className="w-5 h-5" />
                 </div>
-                <h3 className="font-bold text-lg">Wishes &amp; Live Chat</h3>
+                <h3 className="font-bold text-lg">Wishes and Live Chat</h3>
                 <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                  Post personalized birthday wishes on friends&apos; walls and chat directly in real
-                  time.
+                  Post personalized birthday wishes on friend walls and chat directly in real time.
                 </p>
               </div>
             </section>
@@ -424,4 +423,6 @@ export default function App() {
                 className={`p-3 rounded-xl text-sm flex items-center gap-2 ${
                   authMessage.type === 'error'
                     ? 'bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-300'
-                    : 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald
+                    : 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-300'
+                }`}
+       
